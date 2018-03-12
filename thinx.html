@@ -1,35 +1,41 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>Vera's Thinx Page</title>
+  <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
-<!--link to load JavaScript here  -->
+
+  <title>Vera's Thinx Page</title>
 </head>
 
 <body>
-  <center>
-  <!--**** START FEATURE PRODUCT (TOP)****  -->
+<!--**** START FEATURE PRODUCT (TOP)****  -->
 
-    <section class="featureProduct" style="border: 4px dashed aqua;padding:10px 0;">
-      <section class="featureProductDescription">
+  <div class="featureProduct container">
+    <div class="featureProductDescription row" >
+      <div class="col-sm">
         <h1>Hi-Waist</h1>
         <p>Heavy days. Holds up to 2 tampon's worth.</p>
         <p>The phrase "treat yo'self" reaches new belly-button brushing heights with the Hi-Waist, and it's here just in time for cuffing season.</p>
-      </section>
-      <section class="featureProductCarousel">
+      </div>
+      <div class="featureProductCarousel col-sm">
         <div class="featureProductImage">
-          <img src="img/highwaist_black_front_2_1024x1024.jpg" alt="Highwaist Black Front" width="304" height="228">
+          <img src="img/highwaist_black_front_2_1024x1024.jpg" class="img-fluid" alt="Highwaist Black Front">
         </div>
-      </section>
+      </div>
 
-    <!--Start Product Purchase Options Section  -->
 
-      <section class="featureProductPurchaseOptions" style="border: 2px dashed navy">
+      <!--Start Product Purchase Options Section  -->
+
+      <div class="featureProductPurchaseOptions col-sm">
         <h3 class="featureProductPrice">$35.00</h3>
-        <section class="featureProductColorOptions">
-          <p>Color</p>
 
+        <div class="featureProductColorOptions">
+          <p>Color</p>
           <table class="productColors">
             <tr>
               <td><p>Color</p></td>
@@ -40,61 +46,69 @@
                 <button>beige</button>
               </td>
             </tr>
-        </table>
-
-        <table class="productQuantity">
-          <tr>
-            <td class="productQuantityAdd">
-              <button><p>+</p></button>
+          </table>
+          <table class="productQuantity">
+            <tr>
+              <td class="productQuantityAdd">
+                <button><p>+</p></button>
+              </td>
+            <td class="productQuantityText">
+              <p>Quantity</p>
+              <!--show number in () based on add or subtract actions  -->
             </td>
-          <td class="productQuantityText">
-            <p>Quantity</p>
-            <!--show number in () based on add or subtract actions  -->
-          </td>
-            <td class="productQuantitySubtract">
-              <button><p>-</p></button>
-            </td>
-          </tr>
-        </table>
-        </section>
-      <a href="https://www.shethinx.com/pages/cycleset-kit" target="_blank">build a cycle set and save up to 20%</a>
-      <!--End Product Purchase Options Section  -->
-    </section>
-  </section>
-    <!-- ****  END FEATURE PRODUCT (TOP)****   -->
+              <td class="productQuantitySubtract">
+                <button><p>-</p></button>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <a href="https://www.shethinx.com/pages/cycleset-kit" target="_blank">build a cycle set and save up to 20%</a>
+      </div> <!--End of purchase options for feature product -->
+    </div> <!--End of Row for feature product -->
+  </div>  <!-- ****  END FEATURE PRODUCT (TOP)****   -->
 
-  <!-- ****  START PRODUCT SELECTIONS (BOTTOM)****   -->
-    <section style="border: 4px dashed orange; padding: 10px 0;">
-      <h1>This is the product selections area</h1>
+<!-- ****  START PRODUCT SELECTIONS (BOTTOM)****   -->
+  <div class="productSelctions container" style="border: 4px dashed orange; padding: 10px 0;">
 
-      <section class="2columnProducts" style="border: 2px dotted gray">
-        <figure class="productSelection">
-          <img src="img/thinx_productpage_-04.jpg" alt="Hiphugger" width="304" height="228">
-        </figure>
-        <figure class="productSelection">
-          <img src="img/thinx_productpage_-03.jpg" alt="Cheeky" width="304" height="228">
-        </figure>
-      </section>
+    <div class="2columnProducts row" style="border: 2px dotted gray">
+      <div class="productSelection col">
+        <img src="img/thinx_productpage_-04.jpg" class="img-fluid" alt="Hiphugger">
+        <p>Shop Hiphugger</p>
+        <p>heavy days</p>
+      </div>
+      <div class="productSelection col">
+        <img src="img/thinx_productpage_-03.jpg" class="img-fluid" alt="Cheeky">
+        <p>Shop Cheeky</p>
+        <p>light days</p>
+      </div>
+    </div>
 
-      <section class="1columnProducts">
-        <figure class="productSelection">
-          <img src="img/thinx_productpage_-05.jpg" alt="Thong" width="304" height="228">
-        </figure>
-      </section>
+    <div class="1columnProducts row">
+      <div class="productSelection col">
+        <img src="img/thinx_productpage_-05.jpg" class="img-fluid" alt="Thong">
+        <p>Shop Thong</p>
+        <p>lightest days</p>
+      </div>
+    </div>
 
-      <section class="2columnProducts" style="border: 2px dotted gray">
-        <figure class="productSelection">
-          <img src="img/thinx_productpage_-07.jpg" alt="Sport" width="304" height="228">
-        </figure>
-        <figure class="productSelection">
-          <img src="img/thinx_productpage_-08.jpg" alt="Boyshort" width="304" height="228">
-        </figure>
-      </section>
+    <div class="2columnProducts row" style="border: 2px dotted gray">
+      <div class="productSelection col">
+        <img src="img/thinx_productpage_-07.jpg" class="img-fluid" alt="Sport">
+        <p>Shop Sport</p>
+        <p>medium days</p>
+      </div>
+      <div class="productSelection col">
+        <img src="img/thinx_productpage_-08.jpg" class="img-fluid" alt="Boyshort">
+        <p>Shop Boyshort</p>
+        <p>light days</p>
+      </div>
+    </div>
 
-    </section>
-  <!-- ****  END PRODUCT SELECTIONS (BOTTOM)****   -->
+  </div> <!-- ****  END PRODUCT SELECTIONS (BOTTOM)****   -->
 
-  </center>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
