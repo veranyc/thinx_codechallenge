@@ -15,7 +15,83 @@ h2 {
   font-size: 20px;
 }
 
+.featureProduct {
+  padding: 60px 40px;
+}
+
+.featureProductLeft, .featureProductRight {
+  padding: 50px 30px;
+}
+
 .productName {
   font-weight: bolder;
   text-transform: uppercase;
+}
+
+
+
+.blackButton {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 2px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.beigeButton {
+  background-color: beige;
+  border: none;
+  color: black;
+  padding: 2px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.colorLabel {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 2px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.productQuantity {
+  margin: 5px 0px;
+}
+
+.productQuantityAdd, .productQuantitySubtract {
+  background-color: white;
+  color: black;
+  padding: 2px 10px
+}
+
+.sizeHelp {
+  font-size: 9px;
+  text-decoration: none;
+  color: black;
+}
+
+.addToCart {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 2px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.cycleSetLink {
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
 }

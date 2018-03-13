@@ -18,7 +18,7 @@
 
   <div class="featureProduct container">
     <div class="featureProductDescription row" >
-      <div class="col-sm">
+      <div class="featureProductLeft col-sm">
         <h6 class="productName">Hi-Waist</h6>
         <p>Heavy days. Holds up to 2 tampon's worth.</p>
         <p>The phrase "treat yo'self" reaches new belly-button brushing heights with the Hi-Waist, and it's here just in time for cuffing season.</p>
@@ -59,29 +59,31 @@
 
       <!--Start Product Purchase Options Section  -->
 
-      <div class="featureProductPurchaseOptions col-sm">
+      <div class="featureProductRight col-sm">
         <h6 class="featureProductPrice">$35.00</h6>
         <div class="featureProductColorOptions">
           <table class="productColors">
             <tr>
-              <td><p>Color</p></td>
+              <td>
+                <button disabled class="colorLabel">color</button>
+              </td>
               <td class="colorOption selected">
-                <button>black</button>
+                <button class="blackButton">black</button>
               </td>
               <td class="colorOption">
-                <button>beige</button>
+                <button class="beigeButton">beige</button>
               </td>
             </tr>
           </table>
           <table class="productQuantity">
-            <tr>
+            <tr class="productQuantityRow">
               <td class="productQuantityAdd">
                 <button><p>+</p></button>
               </td>
-            <td class="productQuantityText">
-              <p>Quantity</p>
-              <!--show number in () based on add or subtract actions  -->
-            </td>
+              <td class="productQuantityText">
+                <button disabled class="quantityLabel">Quantity</button>
+                <!--show number in () based on add or subtract actions  -->
+              </td>
               <td class="productQuantitySubtract">
                 <button><p>-</p></button>
               </td>
@@ -104,8 +106,9 @@
         </table>
         <a class="sizeHelp" href="#" target="_blank">what's my size?</a>
       </div>
-      <button type="button" class="btn btn-secondary btn-lg btn-block">Add to cart</button>
-      <a href="https://www.shethinx.com/pages/cycleset-kit" target="_blank">build a cycle set and save up to 20%</a>
+      <button class="addToCart">Add to cart</button>
+      <br>
+      <a class="cycleSetLink" href="https://www.shethinx.com/pages/cycleset-kit" target="_blank">build a cycle set and save up to 20%</a>
     </div> <!--End of purchase options for feature product -->
     </div> <!--End of Row for feature product -->
   </div>  <!-- ****  END FEATURE PRODUCT (TOP)****   -->
