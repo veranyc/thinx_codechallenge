@@ -81,7 +81,7 @@ h2 {
 }
 
 .productQuantityLabel {
-  padding: 2px 55px;
+  padding: 2px 50px;
 }
 
 .sizeDropdown {
@@ -113,8 +113,20 @@ h2 {
   margin: 15px 0;
 }
 
-.cycleSetLink {
+.cycleSetLink, .shopLink {
   font-size: 13px;
   text-decoration: none;
   color: black;
+}
+
+.2columnProducts, .1columnProducts {
+  margin: 15px 0;
+}
+
+.rightImage {
+  max-height: 500px;
+}
+
+.centerImage {
+  max-width: 450px;
 }
